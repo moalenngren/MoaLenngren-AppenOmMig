@@ -13,6 +13,15 @@
 		7F5F8A61200E7E3C00B6853C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F8A60200E7E3C00B6853C /* Assets.xcassets */; };
 		7F5F8A64200E7E3C00B6853C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F8A62200E7E3C00B6853C /* LaunchScreen.storyboard */; };
 		7F5F8A67200E7E3C00B6853C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8A66200E7E3C00B6853C /* main.m */; };
+		7F5F8ABC201070C600B6853C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8ABB201070C600B6853C /* GameViewController.m */; };
+		7F5F8B062010E49500B6853C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8B052010E49500B6853C /* SettingsViewController.m */; };
+		7F5F8B0C2011020F00B6853C /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8B0B2011020F00B6853C /* SubjectViewController.m */; };
+		7F5F8B0F2011C13000B6853C /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8B0E2011C13000B6853C /* BCViewController.m */; };
+		7F5F8B122011C15500B6853C /* MyMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8B112011C15500B6853C /* MyMusicViewController.m */; };
+		7F5F8B152011C17200B6853C /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F8B142011C17200B6853C /* AboutMeViewController.m */; };
+		7FFF84B32014C85900A6EB3C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFF84B22014C85900A6EB3C /* WebKit.framework */; };
+		7FFF84B92014C8EE00A6EB3C /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF84B82014C8EE00A6EB3C /* VideoViewController.m */; };
+		7FFF84BC2014CC7E00A6EB3C /* MySongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF84BB2014CC7E00A6EB3C /* MySongsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		7F5F8A63200E7E3C00B6853C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F5F8A65200E7E3C00B6853C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F5F8A66200E7E3C00B6853C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F5F8ABA201070C600B6853C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7F5F8ABB201070C600B6853C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7F5F8B042010E49500B6853C /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7F5F8B052010E49500B6853C /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7F5F8B0A2011020F00B6853C /* SubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
+		7F5F8B0B2011020F00B6853C /* SubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		7F5F8B0D2011C13000B6853C /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		7F5F8B0E2011C13000B6853C /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		7F5F8B102011C15500B6853C /* MyMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMusicViewController.h; sourceTree = "<group>"; };
+		7F5F8B112011C15500B6853C /* MyMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMusicViewController.m; sourceTree = "<group>"; };
+		7F5F8B132011C17200B6853C /* AboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		7F5F8B142011C17200B6853C /* AboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		7FFF84B22014C85900A6EB3C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7FFF84B72014C8EE00A6EB3C /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		7FFF84B82014C8EE00A6EB3C /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		7FFF84BA2014CC7E00A6EB3C /* MySongsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySongsViewController.h; sourceTree = "<group>"; };
+		7FFF84BB2014CC7E00A6EB3C /* MySongsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySongsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFF84B32014C85900A6EB3C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +69,13 @@
 		7F5F8A4B200E7E3C00B6853C = {
 			isa = PBXGroup;
 			children = (
+				7FFF84B72014C8EE00A6EB3C /* VideoViewController.h */,
+				7FFF84B82014C8EE00A6EB3C /* VideoViewController.m */,
+				7F5F8B0A2011020F00B6853C /* SubjectViewController.h */,
+				7F5F8B0B2011020F00B6853C /* SubjectViewController.m */,
 				7F5F8A56200E7E3C00B6853C /* Labb1 */,
 				7F5F8A55200E7E3C00B6853C /* Products */,
+				7FFF84B12014C85800A6EB3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,12 +95,32 @@
 				7F5F8A5A200E7E3C00B6853C /* ViewController.h */,
 				7F5F8A5B200E7E3C00B6853C /* ViewController.m */,
 				7F5F8A5D200E7E3C00B6853C /* Main.storyboard */,
+				7FFF84BA2014CC7E00A6EB3C /* MySongsViewController.h */,
+				7FFF84BB2014CC7E00A6EB3C /* MySongsViewController.m */,
+				7F5F8B132011C17200B6853C /* AboutMeViewController.h */,
+				7F5F8B142011C17200B6853C /* AboutMeViewController.m */,
+				7F5F8B102011C15500B6853C /* MyMusicViewController.h */,
+				7F5F8B112011C15500B6853C /* MyMusicViewController.m */,
+				7F5F8B0D2011C13000B6853C /* BCViewController.h */,
+				7F5F8B0E2011C13000B6853C /* BCViewController.m */,
+				7F5F8ABA201070C600B6853C /* GameViewController.h */,
+				7F5F8ABB201070C600B6853C /* GameViewController.m */,
+				7F5F8B042010E49500B6853C /* SettingsViewController.h */,
+				7F5F8B052010E49500B6853C /* SettingsViewController.m */,
 				7F5F8A60200E7E3C00B6853C /* Assets.xcassets */,
 				7F5F8A62200E7E3C00B6853C /* LaunchScreen.storyboard */,
 				7F5F8A65200E7E3C00B6853C /* Info.plist */,
 				7F5F8A66200E7E3C00B6853C /* main.m */,
 			);
 			path = Labb1;
+			sourceTree = "<group>";
+		};
+		7FFF84B12014C85800A6EB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF84B22014C85900A6EB3C /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFF84B92014C8EE00A6EB3C /* VideoViewController.m in Sources */,
+				7F5F8B122011C15500B6853C /* MyMusicViewController.m in Sources */,
+				7F5F8B152011C17200B6853C /* AboutMeViewController.m in Sources */,
+				7F5F8ABC201070C600B6853C /* GameViewController.m in Sources */,
 				7F5F8A5C200E7E3C00B6853C /* ViewController.m in Sources */,
+				7F5F8B062010E49500B6853C /* SettingsViewController.m in Sources */,
+				7F5F8B0F2011C13000B6853C /* BCViewController.m in Sources */,
 				7F5F8A67200E7E3C00B6853C /* main.m in Sources */,
 				7F5F8A59200E7E3C00B6853C /* AppDelegate.m in Sources */,
+				7F5F8B0C2011020F00B6853C /* SubjectViewController.m in Sources */,
+				7FFF84BC2014CC7E00A6EB3C /* MySongsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
